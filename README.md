@@ -9,14 +9,14 @@ Este é meu primeiro projeto em contato com o Node.js.
 Para rodar este projeto, você precisa inicia-lo e abrir na porta:3000
 
 Tecnologias usadas:
-Javascrpit
-HTML
-CSS
-Bootstrap
-NodeJs
+Javascrpit,
+HTML,
+CSS,
+Bootstrap,
+NodeJs,
 Express
-Handlebars
-Postman
-SQLite3
-DB browser
-Visual Studio Code
+Handlebars,
+Postman,
+SQLite3,
+DB browser,
+Visual Studio Code,
