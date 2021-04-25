@@ -8,7 +8,7 @@ Este é meu primeiro projeto em contato com o Node.js.
 
 Para rodar este projeto, você precisa inicia-lo e abrir na porta:3000
 
-Tecnologias usadas:
+Tecnologias usadas para o desenvolvimento do projeto:
 Javascrpit,
 HTML,
 CSS,
@@ -17,6 +17,7 @@ NodeJs,
 Express
 Handlebars,
 Postman,
+API REST,
 SQLite3,
 DB browser,
-Visual Studio Code,
+Visual Studio Code.
