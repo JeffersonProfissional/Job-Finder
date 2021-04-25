@@ -2,8 +2,14 @@ const express = require('express');
 const router = express.Router();            //Objeto de rota do Express
 const Job = require('../models/Job');       //Chamando o modelo do banco de dados
 
+
+//rota de teste
 router.get('/test', (req,res) => {
     res.send("deu certo");
+});
+
+router.get('/add', (req,res) => {
+    res.render('add');
 });
 
 // add job via post
