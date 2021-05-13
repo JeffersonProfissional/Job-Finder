@@ -23,9 +23,9 @@
             {{#each jobs}}        
             <li class="list-group-item {{#if dataValues.new_job}}new-job{{/if}}">
               <img src="/img/company.svg" alt="Company">
-              <p>{{dataValues.company}}</p>
-              <h2>{{dataValues.title}}</h2>
-              <p>R${{dataValues.salary}}</p>
+              <p class="inform">{{dataValues.company}}</p>
+              <h2 class="inform informh2">{{dataValues.title}}</h2>
+              <p class="inform">R${{dataValues.salary}}</p>
               <span class="new-job-label">Nova</span>
               <a class="btn btn-primary ViewJobButton" href="/jobs/view/{{dataValues.id}}">Ver vaga</a>
             </li>

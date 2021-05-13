@@ -3,6 +3,10 @@
   font-family: Helvetica, sans-serif
 }
 
+body {
+  min-width: 280px;
+}
+
 /* nav */
 .navbar  {
   padding: 1rem;
@@ -67,11 +71,16 @@
   padding: 0;
 }
 
+#search-form button{
+  min-width: 90px;
+}
+
 #search-form input, #search-form button {
   width: 100%;
   border-radius: 0;
   height: 50px;
   font-size: 18px;
+  float: left;
 }
 
 #search-form button {
@@ -239,6 +248,25 @@
 
 /* responsivo */
 
+@media (max-width: 315px){
+  .inform{
+    display: none !important;
+  }
+}
+
+@media (max-width: 340px){
+  .inform{
+    font-size: 13px !important;
+  }
+  .informh2{
+    font-weight: bold;
+  }
+  .ViewJobButton{
+    width: 70px;
+    height: 70px;
+  }
+}
+
 @media (max-width: 540px) {
 
   /* navbar */
@@ -322,7 +350,7 @@
 
 }
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
   #top-container {
     padding: 50px;
     padding-top: 100px;
@@ -339,6 +367,7 @@
   #search-form {
     padding: 0;
   }
+
 
   #jobs-container {
     padding: 20px;
